@@ -1,4 +1,4 @@
 class Target:
 
-    def ejecucion():
+    def ejecucion(self,id):
         pass
