@@ -1,5 +1,3 @@
-from src.targets.vehicle import Vehicle
-
 class Tasques():
 
     def __init__(self):
@@ -18,12 +16,15 @@ class Tasques():
     def addTarea(self,tarea):
         self.tareas.append(tarea)
 
-if __name__ == "__main__":
+    def ejecucion(self,id):
+        for tarea in self.tareas:
+            tarea.ejecucion(id)
 
-    vehicle = Vehicle()
-    tasques = Tasques()
-    tasques.setTarget(vehicle)
-    assert tasques.getTarget is vehicle
+        self.target.ejecucion(id)
+            
+
+
+
 
 
 
