@@ -1,4 +1,4 @@
-from client import Client
+from src.clients.client import Client
 
 class Mollapp(Client):
 

@@ -1,4 +1,4 @@
-from filtre import Filtre
+from src.filtres.filtre import Filtre
 
 class Autorizacion(Filtre):
 

@@ -1,4 +1,4 @@
-from .tasques import Tasques
+from src.administrador.tasques import Tasques
 
 class ProgramadorTasques:
 
